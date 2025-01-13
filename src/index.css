@@ -12,6 +12,9 @@
 li {
   list-style-type: none;
 }
+a{
+  text-decoration: none;
+}
 
         /* root layout starts */
 .root-layout{
