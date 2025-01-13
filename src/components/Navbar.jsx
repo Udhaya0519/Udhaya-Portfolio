@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import NavLinks from "./NavLinks";
 import { IoMenu } from "react-icons/io5";
-import NavbarMobile from "./NavBarMobile";
+import NavbarMobile from "./NavbarMobile";
 import { useState } from "react";
 
 
