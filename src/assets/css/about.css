@@ -1,0 +1,22 @@
+
+.nav-bar-wrapper .container{
+    max-width: 1320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+.nav-bar-wrapper .container .name-heading{
+    margin-top: 0;
+}
+.nav-bar-wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
