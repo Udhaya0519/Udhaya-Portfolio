@@ -1,15 +1,13 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar.jsx";
-import NavbarMobile from "../components/NavBarMobile";
+import NavMobile from "../components/NavMobile.jsx";
 
 
 function RootLayout() {
-
-  
   return (
     <div className="root-layout">
       <div className="root-layout-wrapper">
-        <NavbarMobile />
+        <NavMobile />
         <Navbar />
         <Outlet />
       </div>

@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 
 
-function NavbarMobile({ menuBarAction }) {
+function NavMobile({ menuBarAction }) {
 
     const [ navMobileTransform, setNavMobileTransform ] = useState("translateX(-100%)")
 
@@ -40,4 +40,4 @@ function NavbarMobile({ menuBarAction }) {
      );
 }
 
-export default NavbarMobile;
+export default NavMobile;
