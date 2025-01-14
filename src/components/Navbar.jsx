@@ -21,7 +21,7 @@ function Navbar() {
               isHomePage !== "/" ? "rgba(0, 0, 0, 0.9)" : "transparent",
           }}
         >
-          <div className="container">
+          <div className="nav-container">
             {isHomePage !== "/" ? (
               <h1 className="name-heading" style={{ fontSize: "36px" }}>
                 <Link to="/">Udhaya J</Link>

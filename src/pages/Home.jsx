@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="home-page">
       <div className="home-page-wrapper">
-        <div className="container">
+        <div className="home-container">
           <h1 className="name-heading">
             <Link to="/">Udhaya J</Link>
           </h1>
