@@ -23,7 +23,7 @@ a{
   background-image: url(../public/images/portfolioBg.png);
   background-position: top right;
   background-size: cover;
-  background-repeat: top right no-repeat;
+  background-repeat: no-repeat;
   min-height: 100dvh;
   overflow: hidden;
 
@@ -260,6 +260,8 @@ a{
 
 
 @media (max-width: 900px) {
+
+
   .credits {
     text-align: center;
   }
@@ -297,5 +299,14 @@ a{
   }
 }
 
+
+@media(max-width:600px){
+  .name-heading a{
+    font-size: 26px;
+  }
+  .nav-bar-wrapper .nav-container{
+    height: 60px;
+  }
+}
 
           /* mediaquery ends */

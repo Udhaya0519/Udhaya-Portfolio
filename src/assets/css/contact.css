@@ -1,0 +1,83 @@
+
+
+
+.contact-section{
+    background-color: rgba(0, 0, 0, 0.9); 
+    padding: 30px;
+}
+
+.contact-sub-heading{
+    color: #aaaaaa;
+    letter-spacing: 2px;
+    font-size: 14px;
+    position: relative;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.contact-sub-heading:after{
+    content: '';
+    background-color: #4ceb95;
+    height: 1.5px;
+    width: 120px;
+    position: absolute;
+    top: 50%;
+    right: -130px;
+}
+.contact-heading h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.contact-info{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 25px 20px;
+}
+
+.contact-info-icon{
+    color: #18d26e;
+    font-size: 24px;
+
+}
+.contact-icon-wrapper{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 14px;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+}
+.contact-sub-info{
+    margin-left: 15px;
+}
+.contact-sub-info h5{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-sub-info span{
+    font-size: 14px;
+}
+
+.contact-social-icons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 5px;
+}
+.contact-social-icons *{
+    font-size: 20px;
+}
+
+
+@media (max-width:768px){
+    .contact-grid{
+        grid-template-columns: 1fr;
+    }
+}

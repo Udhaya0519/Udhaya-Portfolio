@@ -1,0 +1,132 @@
+
+
+
+.projects-section{
+    background-color: rgba(0, 0, 0, 0.9); 
+    padding: 30px;
+}
+
+.projects-sub-heading{
+    color: #aaaaaa;
+    letter-spacing: 2px;
+    font-size: 14px;
+    position: relative;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.projects-sub-heading:after{
+    content: '';
+    background-color: #4ceb95;
+    height: 1.5px;
+    width: 120px;
+    position: absolute;
+    top: 50%;
+    right: -130px;
+}
+.projects-heading h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.project-repo-link{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.project-repo-link h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+.project-repo-link .right-cursor-icon{
+    font-size: 23px;
+    margin: 0 8px 0 15px;
+}
+.project-repo-link a{
+    color: #4ceb95;
+}
+
+.project-flex{
+    padding: 30px 0;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.project-item{
+    width: 30%;
+    flex: 0 0 auto;
+    cursor: pointer;
+    position: relative;
+
+}
+.project-item:hover .project-item-info{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.project-item-info{
+    background-color: rgba(0, 0, 0, 0.637);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 20px;
+    opacity: 0;
+    transform: scale(0.6);
+
+    transition: transform 0.3s ease-in-out,opacity 0.3s ease-in-out;
+
+}
+.project-name{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clip-border{
+    border: 3px solid white;
+    width: 48px;
+    height: 48px;
+}
+.project-item-info .top{
+    margin-right: auto;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+.project-item-info .bottom{
+    margin-left: auto;
+    border-left: 0px;
+    border-top: 0px;
+}
+
+@media(max-width:900px){
+    .project-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center ;
+        gap: 20px;
+    }
+    .project-item{
+        width: 70%;
+    }
+}
+
+@media(max-width:500px){
+    .project-item{
+        width: 90%;
+    }
+    .project-flex{
+        gap: 30px;
+    }
+}

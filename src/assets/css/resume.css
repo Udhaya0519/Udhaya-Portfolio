@@ -32,6 +32,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .resume-main-section .resume-grid{
     padding: 0 10px;
 }
@@ -88,4 +89,14 @@ em{
 }
 .resume-sub-content p{
     margin-bottom: 10px;
+}
+
+
+
+
+
+@media (max-width:990px){
+    .resume-main-section{
+        grid-template-columns: 1fr;
+    }
 }
