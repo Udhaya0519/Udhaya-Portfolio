@@ -8,13 +8,15 @@ function RootLayout() {
   const isHomePage = location.pathname;
 
   return (
-    <div className="root-layout">
-      <div className="root-layout-wrapper" style={ { paddingTop: isHomePage !== "/"? "100px": ""}}>
-        <NavMobile />
-        <Navbar />
-        <Outlet />
+    <>
+      <Navbar />
+      <NavMobile />
+      <div className="root-layout">
+        <div className="root-layout-wrapper" style={ { paddingTop: isHomePage !== "/"? "100px": "",paddingBottom: isHomePage !== "/"? "50px": ""}}>
+          <Outlet />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

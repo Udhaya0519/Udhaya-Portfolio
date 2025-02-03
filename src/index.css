@@ -20,13 +20,22 @@ a{
 
         /* root layout starts */
 .root-layout{
+  min-height: 100dvh;
+  overflow: hidden;
+
+}
+.root-layout::before{
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background-image: url(../public/images/portfolioBg.png);
   background-position: top right;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100dvh;
-  overflow: hidden;
-
+  z-index: -1;
 }
 .root-layout-wrapper{
   min-height: 100dvh;
@@ -155,7 +164,7 @@ a{
 /* nav bar for mobile starts*/
 
 .nav-mobile{
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 9999;
@@ -258,14 +267,29 @@ a{
 
           /* mediaquery starts */
 
+@media (max-width: 1400px){
+  .container{
+    max-width: 1120px;
+  }
+}
+@media (max-width: 1200px){
+  .container{
+    max-width: 900px;
+  }
+}
+@media (max-width: 990px){
+  .container{
+    max-width: 790px;
+  }
+}
 
-@media (max-width: 900px) {
 
+@media (max-width: 990px) {
 
   .credits {
     text-align: center;
   }
-  .root-layout {
+  .root-layout::before {
     background-image: url(../public/images/bg2.png);
   }
 
