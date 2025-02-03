@@ -271,9 +271,15 @@ a{
   .container{
     max-width: 1120px;
   }
+  .home-page-wrapper .home-container{
+    max-width: 1120px;
+  }
 }
 @media (max-width: 1200px){
   .container{
+    max-width: 900px;
+  }
+  .home-page-wrapper .home-container{
     max-width: 900px;
   }
 }
@@ -281,7 +287,13 @@ a{
   .container{
     max-width: 790px;
   }
+  .home-page-wrapper .home-container{
+    max-width: 790px;
+  }
 }
+
+
+
 
 
 @media (max-width: 990px) {

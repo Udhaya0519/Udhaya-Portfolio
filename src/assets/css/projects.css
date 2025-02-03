@@ -53,7 +53,6 @@
     grid-template-columns: repeat(auto-fit, 300px);
     justify-content: center;
     gap: 20px;
-
 }
 .project-item{
     /* flex: 0 0 auto; */
