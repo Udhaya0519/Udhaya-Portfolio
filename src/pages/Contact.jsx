@@ -4,6 +4,7 @@ import { LuPhoneCall, LuShare2 } from 'react-icons/lu'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa6'
 import { MdOutlineMail } from 'react-icons/md'
+import { Link } from 'react-router-dom'
 
 
 const Contact = () => {
@@ -34,10 +35,15 @@ const Contact = () => {
           <div className="social-info contact-sub-info">
             <h5>Social Profiles</h5>
             <div className='contact-social-icons'>
-              <FaLinkedin />
-              <FaGithub />
-              <FaInstagram />
-              <FaTwitter />
+              <Link to={"https://www.linkedin.com/in/udhaya-j"}>
+                <FaLinkedin style={{color: "white",cursor:"pointer"}}/>
+              </Link>
+              <Link to={"https://github.com/Udhaya0519"}>
+                <FaGithub style={{color: "white",cursor:"pointer"}}/>
+              </Link>
+              <Link to={"https://www.instagram.com/udhaya_janakiraman/"}>
+                <FaInstagram style={{color: "white",cursor:"pointer"}}/>
+              </Link>
             </div>
           </div>
         </div>

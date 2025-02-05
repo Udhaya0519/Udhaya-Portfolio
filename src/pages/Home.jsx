@@ -18,18 +18,15 @@ const Home = () => {
           </h2>
           <NavLinks />
           <div className="social-links">
-            <div className="icon-link">
+            <Link to={"https://www.linkedin.com/in/udhaya-j"} className="icon-link">
               <FaLinkedin className="icon" />
-            </div>
-            <div className="icon-link">
+            </Link>
+            <Link to={"https://github.com/Udhaya0519"} className="icon-link">
               <FaGithub className="icon" />
-            </div>
-            <div className="icon-link">
+            </Link>
+            <Link to={"https://www.instagram.com/udhaya_janakiraman/"} className="icon-link">
               <FaInstagram className="icon" />
-            </div>
-            <div className="icon-link">
-              <FaTwitter className="icon" />
-            </div>
+            </Link>
           </div>
         </div>
         <div className="credits">Developed by Udhaya-J❤️</div>

@@ -76,20 +76,23 @@
     width: 80%;
 }
 
+.skill1{
+    width: 85%;
+}
 .skill2{
-    width: 90%;
-}
-.skill3{
-    width: 70%;
-}
-.skill4{
     width: 80%;
 }
+.skill3{
+    width: 80%;
+}
+.skill4{
+    width: 70%;
+}
 .skill5{
-    width: 90%;
+    width: 75%;
 }
 .skill6{
-    width: 70%;
+    width: 80%;
 }
 .skills{
     margin: 15px 0;
