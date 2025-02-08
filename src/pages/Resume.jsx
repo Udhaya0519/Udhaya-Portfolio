@@ -34,11 +34,10 @@ const Resume = () => {
                         <span>2021-2025</span>
                         <em>Anna University (BIT Campus), Trichy,India</em>
                         <p className='p-edu'>
-                            An undergraduate program that deals with the subjects and topics related to computer science, computer application, and its services. The main aim of this program is to create quality professionals and research fellows who can work in every sector of the world by implementing the technology of computer systems and software.
-                
+                            An undergraduate program that focuses on the principles of electronics, communication systems, and embedded technologies while integrating software and hardware applications. The program emphasizes signal processing, networking, VLSI design, and IoT while providing a strong foundation in programming and system development. With the growing convergence of electronics and software, this field enables professionals to work in embedded systems, network security, wireless communication, and telecommunications.
                         </p>
                         <p className='p-edu'>
-                            Relevant Coursework: Java , C , SQL , Advanced Java , Angular , Mongodb , Cloud Computing Operating Systems and Software Development.
+                            Relevant Coursework: C & Data Structures, Python, Computer Networks, Operating Systems, Embedded Systems, IoT, and AI&ML.
                         </p>
                     </div>
                     <div className="resume-sub-content">
@@ -62,13 +61,13 @@ const Resume = () => {
                         <em>SIT, Valasaravakkam,Chennai</em>
                         <ul>
                             <li>
-                                Data Collection: Collect data from 20 diverse sources (articles, reviews) using Python and web scraping (Selenium, Tweepy, Snscraper) to gather comprehensive brand insights.
+                                Designed and developed responsive websites using HTML, CSS, JavaScript, and Tailwind CSS, ensuring seamless user experience across various devices and screen sizes.
                             </li>
                             <li>
-                                Emotional & Sentiment Analysis: Analyze sentiments and emotions in the data to understand public opinion, brand perception, and customer satisfaction. Utilize Python libraries (pandas, numpy, matplotlib) for efficient data processing and visualization
+                                Created interactive UI components and layouts with a strong focus on user experience, accessibility, and modern design principles, enhancing visual appeal and usability.Contributed to the development of the FitFusion single-page website, showcasing expertise in UI design, color selection, and responsive web layouts for an engaging user experience.
                             </li>
                             <li>
-                                Credit Assurance & Time Savings: Create credit assurance report with actionable insights. Save 1000 hours/month through automation and streamlined data processing, optimizing decision-making and resource allocation
+                                Applied industry best practices for responsive design, cross-browser compatibility, and performance optimization, ensuring high-quality and scalable frontend solutions.
                             </li>
                         </ul>
                     </div>
@@ -76,14 +75,12 @@ const Resume = () => {
                 <div className="resume-sub-section resume-certification">
                     <h2>CERTIFICATION</h2>
                     <div className="resume-sub-content">
+                            <h3>Postman API fundamentals</h3>
+                            <span>Dec 2024</span>
+                            <em>Postman</em>
                             <h3>Networking Essentials</h3>
                             <span>May 2023</span>
                             <em>Cisco Networking Academy ,CISCO,India</em>
-                            <p>
-                                Completed my High School with Major in <br />
-                                Computer Science <br />
-                                Maths , Physics and Chemistry.
-                            </p>
                         </div>
                 </div>
             </div>
