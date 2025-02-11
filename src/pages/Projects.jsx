@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import { FaLink } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
+
 import "../assets/css/projects.css";
 import { TbArrowBadgeRightFilled } from "react-icons/tb";
 
@@ -19,14 +22,35 @@ const Projects = () => {
          <div className="project-grid">
             <div className="project-item">
                <img
-                  src="/images/project-image1.png"
+                  src="/images/UAuth-image.png"
+                  width="100%"
+                  height="100%"
+                  alt="UAuth App"
+               />
+               <div className="project-item-info">
+                  <div className="clip-border top"></div>
+                  <div className="project-name">UAuth</div>
+                  <div className="project-links">
+                     <Link to={"https://mern-auth-app-pi.vercel.app/"}><FaLink /></Link>
+                     <Link to={"https://github.com/Udhaya0519/Mern-Auth-App"}><FaGithub /></Link>
+                  </div>
+                  <div className="clip-border bottom"></div>
+               </div>
+            </div>
+            <div className="project-item">
+               <img
+                  src="/images/product-store.png"
                   width="100%"
                   height="100%"
                   alt=""
                />
                <div className="project-item-info">
                   <div className="clip-border top"></div>
-                  <div className="project-name">Bridal Lash</div>
+                  <div className="project-name">Product Store</div>
+                  <div className="project-links">
+                     <Link to={"https://product-store-app-tan.vercel.app/"}><FaLink /></Link>
+                     <Link to={"https://github.com/Udhaya0519/Product-Store"}><FaGithub /></Link>
+                  </div>
                   <div className="clip-border bottom"></div>
                </div>
             </div>
@@ -40,19 +64,44 @@ const Projects = () => {
                <div className="project-item-info">
                   <div className="clip-border top"></div>
                   <div className="project-name">Bridal Lash</div>
+                  <div className="project-links">
+                     <Link to={"https://udhaya0519.github.io/BridalLash-freelance-project/"}><FaLink /></Link>
+                     <Link to={"https://github.com/Udhaya0519/BridalLash-freelance-project"}><FaGithub /></Link>
+                  </div>
                   <div className="clip-border bottom"></div>
                </div>
             </div>
             <div className="project-item">
                <img
-                  src="/images/project-image1.png"
+                  src="/images/js-calc.png"
                   width="100%"
                   height="100%"
                   alt=""
                />
                <div className="project-item-info">
                   <div className="clip-border top"></div>
-                  <div className="project-name">Bridal Lash</div>
+                  <div className="project-name">Simple Calculator</div>
+                  <div className="project-links">
+                     <Link to={"https://js-calculator-tailwind.vercel.app/"}><FaLink /></Link>
+                     <Link to={"https://github.com/Udhaya0519/JS_Calculator"}><FaGithub /></Link>
+                  </div>
+                  <div className="clip-border bottom"></div>
+               </div>
+            </div>
+            <div className="project-item">
+               <img
+                  src="/images/supremeTiles-image.png"
+                  width="100%"
+                  height="100%"
+                  alt=""
+               />
+               <div className="project-item-info">
+                  <div className="clip-border top"></div>
+                  <div className="project-name">Supreme Tiles</div>
+                  <div className="project-links">
+                     <Link to={"https://udhaya0519.github.io/SUPREME-TILES-PROJECT/"}><FaLink /></Link>
+                     <Link to={"https://github.com/Udhaya0519/SUPREME-TILES-PROJECT"}><FaGithub /></Link>
+                  </div>
                   <div className="clip-border bottom"></div>
                </div>
             </div>

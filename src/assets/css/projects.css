@@ -50,19 +50,34 @@
     padding: 30px 0;
     padding-top: 40px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 .project-item{
-    /* flex: 0 0 auto; */
-    cursor: pointer;
     position: relative;
+    height: 200px;
+    overflow: hidden;
 
+
+}
+.project-item img{
+    object-position: center;
+    object-fit: contain;
 }
 .project-item:hover .project-item-info{
     opacity: 1;
     transform: scale(1);
+}
+
+.project-links a{
+    color: white;
+}
+.project-links a:nth-child(2){
+    margin-left: 15px;
+}
+.project-links a:hover{
+    color: rgb(42, 122, 227);
 }
 
 
@@ -91,6 +106,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
+    text-shadow: 0 0 20px #000;
 }
 .clip-border{
     border: 3px solid white;
