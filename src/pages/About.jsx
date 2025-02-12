@@ -13,16 +13,6 @@ const About = () => {
             <h1>LEARN MORE ABOUT ME</h1>
          </div>
          <div className="about-me">
-            <div className="profile-photo">
-               <div className="my-photo">
-                  <img
-                     width="100%"
-                     height="100%"
-                     src="/images/avatar_profile.png"
-                     alt="my photo"
-                  />
-               </div>
-            </div>
             <div className="about-info">
                <h4>Full Stack Dev & Tech Enthusiast</h4>
                <p className="about-desc">
@@ -81,65 +71,6 @@ const About = () => {
                   morning or hitting the gym to challenge myself, I always make
                   time to stay active and keep my mind sharp
                </p>
-            </div>
-         </div>
-         <div className="about-skills">
-            <span className="about-sub-heading">SKILLS</span>
-            <div className="skills">
-               <div className="single-skill">
-                  <div className="skill-name">
-                     <span>JavaScript</span>
-                     <span>85%</span>
-                  </div>
-                  <div className="progress-bar-wrap">
-                     <div className="progress-bar skill1"></div>
-                  </div>
-               </div>
-               <div className="single-skill">
-                  <div className="skill-name">
-                     <span>CSS</span>
-                     <span>80%</span>
-                  </div>
-                  <div className="progress-bar-wrap">
-                     <div className="progress-bar skill2"></div>
-                  </div>
-               </div>
-               <div className="single-skill">
-                  <div className="skill-name">
-                     <span>React</span>
-                     <span>80%</span>
-                  </div>
-                  <div className="progress-bar-wrap">
-                     <div className="progress-bar skill3"></div>
-                  </div>
-               </div>
-               <div className="single-skill">
-                  <div className="skill-name">
-                     <span>Express JS</span>
-                     <span>70%</span>
-                  </div>
-                  <div className="progress-bar-wrap">
-                     <div className="progress-bar skill4"></div>
-                  </div>
-               </div>
-               <div className="single-skill">
-                  <div className="skill-name">
-                     <span>Python</span>
-                     <span>75%</span>
-                  </div>
-                  <div className="progress-bar-wrap">
-                     <div className="progress-bar skill5"></div>
-                  </div>
-               </div>
-               <div className="single-skill">
-                  <div className="skill-name">
-                     <span>Mongo DB</span>
-                     <span>80%</span>
-                  </div>
-                  <div className="progress-bar-wrap">
-                     <div className="progress-bar skill6"></div>
-                  </div>
-               </div>
             </div>
          </div>
          <div className="about-interests">

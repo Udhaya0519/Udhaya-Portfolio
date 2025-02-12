@@ -27,6 +27,34 @@ const Resume = () => {
                         </ul>
                     </div>
                 </div>
+                <div className="resume-sub-section resume-summary">
+                    <h2>Skills</h2>
+                    <div className="resume-sub-content">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>DOM Manipulation</li>
+                        </ul>
+                    </div>
+                    <div className="resume-sub-content">
+                        <h3>Frontend Frameworks</h3>
+                        <ul>
+                            <li>React JS</li>
+                            <li>TailwindCSS</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div className="resume-sub-content">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Node JS</li>
+                            <li>Express JS</li>
+                            <li>Mongo DB</li>
+                        </ul>
+                    </div>
+                </div>
                 <div className="resume-sub-section resume-education">
                     <h2>Education</h2>
                     <div className="resume-sub-content">
