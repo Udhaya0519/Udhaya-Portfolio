@@ -52,6 +52,16 @@ const Resume = () => {
                             <li>Node JS</li>
                             <li>Express JS</li>
                             <li>Mongo DB</li>
+                            <li>MySQL</li>
+                            <li>REST APIs</li>
+                        </ul>
+                    </div>
+                    <div className="resume-sub-content">
+                        <h3>Programming Languages</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>TypeScript</li>
                         </ul>
                     </div>
                 </div>
@@ -96,6 +106,19 @@ const Resume = () => {
                             </li>
                             <li>
                                 Applied industry best practices for responsive design, cross-browser compatibility, and performance optimization, ensuring high-quality and scalable frontend solutions.
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="resume-sub-content">
+                        <h3>FULL STACK DEVELOPER INTERN</h3>
+                        <span>Mar 2025 - May 2025</span>
+                        <em>Infotact Solutions, Bangalore, IND</em>
+                        <ul>
+                            <li>
+                                Collaborated with a team to develop a full-stack Learning Management System portal using the MERN stack.
+                            </li>
+                            <li>
+                                Applied state management tools and REST APIs to deliver a scalable and interactive web application.
                             </li>
                         </ul>
                     </div>
