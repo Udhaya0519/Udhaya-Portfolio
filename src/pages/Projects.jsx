@@ -42,11 +42,11 @@ const Projects = () => {
                   src="/images/chatty.png"
                   width="100%"
                   height="100%"
-                  alt="Eduvance LMS"
+                  alt="Chatty"
                />
                <div className="project-item-info">
                   <div className="clip-border top"></div>
-                  <div className="project-name">Eduvance</div>
+                  <div className="project-name">Chatty</div>
                   <div className="project-links">
                      <Link to={"https://chatty-lovat-five.vercel.app/"}><FaLink /></Link>
                      <Link to={"https://github.com/Udhaya0519/chatty"}><FaGithub /></Link>
