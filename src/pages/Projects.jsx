@@ -39,6 +39,23 @@ const Projects = () => {
             </div>
             <div className="project-item">
                <img
+                  src="/images/chatty.png"
+                  width="100%"
+                  height="100%"
+                  alt="Eduvance LMS"
+               />
+               <div className="project-item-info">
+                  <div className="clip-border top"></div>
+                  <div className="project-name">Eduvance</div>
+                  <div className="project-links">
+                     <Link to={"https://chatty-lovat-five.vercel.app/"}><FaLink /></Link>
+                     <Link to={"https://github.com/Udhaya0519/chatty"}><FaGithub /></Link>
+                  </div>
+                  <div className="clip-border bottom"></div>
+               </div>
+            </div>
+            <div className="project-item">
+               <img
                   src="/images/UAuth-image.png"
                   width="100%"
                   height="100%"
